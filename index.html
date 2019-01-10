@@ -3,8 +3,27 @@
 <head>
 	<title>Invie</title>
 	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<style type="text/css">
+	
+	img#responsive{
+		display: none;
+	}
+
+		@media screen and (max-width: 767px){
+			img#responsive{
+				display: block;
+			}
+			img{
+				display: none;
+			}
+		}
+	</style>
 </head>
+
 <body style="border: 3px solid red;">
+
+<body>
+<img src="responsive.png" id="responsive">
 <img src="header.jpg">
 <img src="hero.jpg">
 <img src="acustica.jpg">
