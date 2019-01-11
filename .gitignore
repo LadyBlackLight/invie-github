@@ -1,1 +1,16 @@
 settings.py
+# Created by https://www.gitignore.io/api/hsp
+# Edit at https://www.gitignore.io/?templates=hsp
+
+### HSP ###
+# Object files
+hsptmp*
+packfile
+obj
+*.ax
+
+# Binaries
+*.exe
+*.dpm
+
+# End of https://www.gitignore.io/api/hsp
